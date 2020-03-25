@@ -1,0 +1,54 @@
+body {
+	height: 100vh;
+	background: #ededed;
+}
+
+.App {
+	max-width: 1024px;
+	margin: 45px auto;
+	background: white;
+	border-radius: 5px;
+	box-shadow: #e2e2e2 9px 9px 12px 1px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.controls-container {
+	width: 60%;
+    margin: 10px auto;
+}
+
+.controls-container .add-curve-button {
+	padding: 10px;
+    border: none;
+    margin: 10px;
+    background: #62d6e3;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+.controls-container .add-curve-button:focus {
+	outline:0;
+}
+
+
+.delimiter {
+	border-top: 1px solid grey;
+    height: 0px;
+    box-shadow: grey -6px 4px 15px 1px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+canvas {
+	width: 70%;
+	margin: auto;
+	height: 225px;
+	box-shadow: #e2e2e2 1px 4px 12px 1px;
+	cursor: moz-grab;
+	cursor: move;
+}
